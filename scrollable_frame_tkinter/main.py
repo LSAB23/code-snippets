@@ -97,7 +97,6 @@ class ScrollFrame(tk.Frame):
 # 			# when the height is the same as current window height just remove the scrollbar
 # 			height = self.winfo_height()
 # 			self.canvas.unbind_all('<MouseWheel>')
-# 			self.scrollbar.place_forget()
 		
 # 		self.canvas.configure(scrollregion=(0,0,width, height))
 		
