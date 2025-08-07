@@ -74,7 +74,7 @@ class ScrollFrame(tk.Frame):
 		
 
 # 		#scrollbar
-# 		self.scrollbar = ttk.Scrollbar(parent, orient = 'vertical', command = self.canvas.yview)
+# 		self.scrollbar = ctk.CTkScrollbar(parent, orientation = 'vertical', command = self.canvas.yview)
 # 		self.canvas.configure(yscrollcommand = self.scrollbar.set)
 # 		self.scrollbar.place(relx = 1, rely = 0, relheight = 1, anchor = 'ne')
 
